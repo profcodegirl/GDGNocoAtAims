@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_map"
+        android:title="Map to Aims"
+        android:icon="@drawable/ic_map_icon"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+   <item android:id="@+id/info"
+       android:title="Info"
+       android:icon="@drawable/ic_get_info"
+       android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/action_aims_info"
+                android:title="Aims Info"/>
+            <item android:id="@+id/action_gdgnoco_info"
+                android:title="GDG Noco Info"/>
+        </menu>
+   </item>
+</menu>
